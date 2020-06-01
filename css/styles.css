@@ -1,0 +1,48 @@
+.me, #image {
+  display: block;
+  width: 20%;
+  margin: 5% auto;
+}
+
+div {
+  color: white;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+header .container-1 {
+  font-size: 18px;
+  width: 50%;
+}
+
+div p {
+  font-size: 20px;
+  width: 50%;
+  margin: 5% auto;
+}
+
+.me {
+  border-radius: 20%;
+}
+
+.table {
+  margin: auto;
+  width: 50%;
+}
+
+#disclaimer {
+  margin: 0 auto;
+  font-size: 12px;
+}
+
+.nav-link:active,
+.nav-link:hover {
+  transition-duration: 0.3s;
+  transform: scale(1.1);
+}
+
+/*# sourceMappingURL=styles.css.map */

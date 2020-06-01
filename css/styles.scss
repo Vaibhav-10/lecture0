@@ -1,0 +1,56 @@
+$color: white;
+$width: 50%;
+
+%images {
+  display: block;
+  width: 20%;
+  margin: 5% auto;
+}
+
+div {
+  color: $color;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+#image {
+  @extend %images;
+}
+
+header {
+  .container-1 {
+    font-size: 18px;
+    width: $width;
+  }
+}
+
+div p {
+  font-size: 20px;
+  width: $width;
+  margin: 5% auto;
+}
+
+.me {
+  @extend %images;
+  border-radius: 20%;
+}
+
+.table {
+  margin: auto;
+  width: $width;
+}
+
+#disclaimer {
+  margin: 0 auto;
+  font-size: 12px;
+}
+
+.nav-link:active,
+.nav-link:hover {
+  transition-duration: 0.3s;
+  transform: scale(1.1);
+}
