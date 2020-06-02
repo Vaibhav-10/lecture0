@@ -51,8 +51,11 @@ div p {
   width: 100%;
 }
 
+li {
+  font-size: 20px;
+}
 @media (max-width: 600px) {
-  div p {
+  div p, li {
     font-size: 14px;
   }
 
