@@ -46,15 +46,21 @@ div p {
   margin: 3% auto;
 }
 
-.list {
-  font-size: 20px;
-}
-
 .row {
   margin: 5% auto;
   width: 100%;
 }
 
 @media (max-width: 600px) {
+  div p {
+    font-size: 14px;
+  }
 
+  li {
+    overflow-wrap: break-word;
+  }
+
+  th {
+    display: none;
+  }
 }
